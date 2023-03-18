@@ -58,3 +58,8 @@ export default class Team {
     };
   }
 }
+const team = new Team();
+
+for (const hero of team) {
+  console.log(hero);
+}
